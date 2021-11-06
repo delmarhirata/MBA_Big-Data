@@ -60,7 +60,7 @@ texto = str(input("Digite a Frase: "))
 # Impressão do resultado
 print('Esta frase tem {} caracteres. Incluindo espaços e pontuação.'.format(contador_carcter(texto)))
 print('Esta frase tem {} caracteres distintos. Incluindo espaços e pontuação.'.format(contador_carcter(monta_lista_exclusivo(texto))))
-print()
+print('Portanto temos',contador_carcter(texto)-contador_carcter(monta_lista_exclusivo(texto)), 'caracteres repitidos' )
 print('Aqui estão as ocorrencias:')
 ocorrencias(texto)
 
